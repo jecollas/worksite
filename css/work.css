@@ -1,0 +1,33 @@
+/* work thing css*/
+
+header,
+body {
+  font-family: 'Avenir', sans-serif;
+}
+
+header {
+  background-color: #00335B;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #0F0F0F;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 2em;
+}
+
+div.row {
+  margin: 2em;
+}
+
+li {
+  font-size: 20px;
+}
+
+a {
+  color: #0079C8;
+}
