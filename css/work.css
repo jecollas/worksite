@@ -16,12 +16,33 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 20px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.links ul,
+.links li {
+  margin-left: 4em;
+}
+
+.titledoc {
+  padding: 2em;
+  padding-bottom: 0;
+}
+
+.row h2 {
+  margin-top: 1em;
+}
+
 header {
   padding: 2em;
 }
 
 div.row {
-  margin: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 li {
@@ -30,4 +51,25 @@ li {
 
 a {
   color: #0079C8;
+}
+
+.navbar {
+  display: block;
+  padding-bottom: 2.5em;
+}
+
+.navbar a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  position: relative;
+}
+
+.navbar a:hover {
+  background-color: #778B9B;
+  border-radius: 12px;
 }
