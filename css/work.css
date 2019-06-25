@@ -49,6 +49,10 @@ li {
   font-size: 20px;
 }
 
+ul {
+  line-height: 1.5;
+}
+
 a {
   color: #0079C8;
 }
